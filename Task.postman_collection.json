@@ -4,7 +4,7 @@
 		"name": "Task",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "13401788",
-		"_collection_link": "https://lunar-crater-969259.postman.co/workspace/My-Workspace~5d77a075-f608-49d9-88e2-9f4b970d5b93/collection/13401788-ddf183a4-d83c-4074-a761-bd03c7a58bf7?action=share&source=collection_link&creator=13401788"
+		"_collection_link": "https://lunar-crater-969259.postman.co/workspace/5d77a075-f608-49d9-88e2-9f4b970d5b93/collection/13401788-ddf183a4-d83c-4074-a761-bd03c7a58bf7?action=share&source=collection_link&creator=13401788"
 	},
 	"item": [
 		{
@@ -55,7 +55,86 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\":\"z4JKKdCVHw@gmail.com\",\n    \"password\":\"password\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/login",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:01:33 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:01:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzA4NjkzMjkzLCJleHAiOjE3MDg2OTY4OTMsIm5iZiI6MTcwODY5MzI5MywianRpIjoiSTh5dVRTcExQWU9URTZGZyIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.i2Gezq2ijd_el7JHisWjp6X4uICMeLMiy49Alm1ozdQ\",\n    \"token_type\": \"bearer\",\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"EiArY4YWti\",\n        \"email\": \"z4JKKdCVHw@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-02-23T11:01:42.000000Z\",\n        \"updated_at\": \"2024-02-23T11:01:42.000000Z\"\n    }\n}"
+						}
+					]
 				},
 				{
 					"name": "me",
@@ -100,7 +179,86 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "me",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/me",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"me"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:02:48 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:02:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"EiArY4YWti\",\n        \"email\": \"z4JKKdCVHw@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-02-23T11:01:42.000000Z\",\n        \"updated_at\": \"2024-02-23T11:01:42.000000Z\"\n    }\n}"
+						}
+					]
 				},
 				{
 					"name": "logout",
@@ -142,7 +300,86 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "logout",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "text"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/logout",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"logout"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:02:58 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:02:58 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Logged out Successfully\"\n}"
+						}
+					]
 				},
 				{
 					"name": "refresh",
@@ -199,7 +436,86 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "refresh",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/refresh",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"refresh"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:03:04 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:03:04 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"error\": \"Unauthorized\"\n}"
+						}
+					]
 				}
 			],
 			"auth": {
@@ -270,7 +586,94 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "All Tasks",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/tasks",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"tasks"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "oSByALUFF6",
+											"disabled": true
+										},
+										{
+											"key": "date",
+											"value": "2024-02-20",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "pending",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:03:56 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:03:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"tasks\": [\n        {\n            \"id\": 1,\n            \"title\": \"Test 3\",\n            \"description\": \"Testing to add a task\",\n            \"due_date\": \"2024-02-23\",\n            \"status\": \"in process\",\n            \"created_at\": \"2024-02-23T11:01:42.000000Z\",\n            \"updated_at\": \"2024-02-23T11:01:42.000000Z\",\n            \"task_id\": 4,\n            \"user_id\": 1,\n            \"name\": \"EiArY4YWti\",\n            \"email\": \"z4JKKdCVHw@gmail.com\",\n            \"email_verified_at\": null,\n            \"password\": \"$2y$12$/WkNfPT/KJJDNl6n7i4vneElBd.Gajd5vjEhpbXkvtfuLir1eK6iu\",\n            \"remember_token\": null\n        },\n        {\n            \"id\": 2,\n            \"title\": \"Test 1\",\n            \"description\": \"Testing to add a task\",\n            \"due_date\": \"2024-02-23\",\n            \"status\": \"pending\",\n            \"created_at\": \"2024-02-23T11:01:43.000000Z\",\n            \"updated_at\": \"2024-02-23T11:01:43.000000Z\",\n            \"task_id\": 2,\n            \"user_id\": 2,\n            \"name\": \"oSByALUFF6\",\n            \"email\": \"LfahjCgSrA@gmail.com\",\n            \"email_verified_at\": null,\n            \"password\": \"$2y$12$uTdGT4H1O8Ju2rQiIyY2IOzQkZRQOHw2RzFX1xUWKbqh0M4CP/6nu\",\n            \"remember_token\": null\n        },\n        {\n            \"id\": 2,\n            \"title\": \"Test\",\n            \"description\": \"Testing to add a task\",\n            \"due_date\": \"2024-02-23\",\n            \"status\": \"pending\",\n            \"created_at\": \"2024-02-23T11:01:43.000000Z\",\n            \"updated_at\": \"2024-02-23T11:01:43.000000Z\",\n            \"task_id\": 1,\n            \"user_id\": 2,\n            \"name\": \"oSByALUFF6\",\n            \"email\": \"LfahjCgSrA@gmail.com\",\n            \"email_verified_at\": null,\n            \"password\": \"$2y$12$uTdGT4H1O8Ju2rQiIyY2IOzQkZRQOHw2RzFX1xUWKbqh0M4CP/6nu\",\n            \"remember_token\": null\n        }\n    ]\n}"
+						}
+					]
 				},
 				{
 					"name": "A Task",
@@ -297,7 +700,78 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "A Task",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/task/2",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"task",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:04:05 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:04:05 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"data\": [\n        {\n            \"id\": 2,\n            \"title\": \"Test 1\",\n            \"description\": \"Testing to add a task\",\n            \"due_date\": \"2024-02-23\",\n            \"status\": \"pending\",\n            \"created_at\": \"2024-02-23T11:01:43.000000Z\",\n            \"updated_at\": \"2024-02-23T11:01:43.000000Z\",\n            \"task_id\": 2,\n            \"user_id\": 2,\n            \"name\": \"oSByALUFF6\",\n            \"email\": \"LfahjCgSrA@gmail.com\",\n            \"email_verified_at\": null,\n            \"password\": \"$2y$12$uTdGT4H1O8Ju2rQiIyY2IOzQkZRQOHw2RzFX1xUWKbqh0M4CP/6nu\",\n            \"remember_token\": null\n        }\n    ]\n}"
+						}
+					]
 				},
 				{
 					"name": "Add Task",
@@ -309,7 +783,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\":\"Test 3\",\n    \"description\":\"Testing to add a task\",\n    \"due_date\": \"2024-02-23\",\n    \"status\": 1\n}",
+							"raw": "{\n    \"title\":\"Testing\",\n    \"description\":\"Testing to add a task\",\n    \"due_date\": \"2024-02-23\",\n    \"status\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -332,7 +806,164 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Add Task",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"title\":\"Testing\",\n    \"description\":\"Testing to add a task\",\n    \"due_date\": \"2024-02-23\",\n    \"status\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/add_task",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"add_task"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:04:25 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:04:25 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Task created successfully\"\n}"
+						},
+						{
+							"name": "Add Task",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"title\":\"Testing\",\n    \"description\":\"Testing to add a task\",\n    \"due_date\": \"2024-02-23\",\n    \"status\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/add_task",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"add_task"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:04:58 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:04:58 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "54"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Task title already exists\"\n}"
+						}
+					]
 				},
 				{
 					"name": "Update Task",
@@ -344,7 +975,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\":\"Testing 1\"\n\n}",
+							"raw": "{\n    \"title\":\"New\"\n\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -352,7 +983,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/update_task/3",
+							"raw": "http://127.0.0.1:8000/api/update_task/2",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -364,11 +995,91 @@
 							"path": [
 								"api",
 								"update_task",
-								"3"
+								"2"
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Update Task",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"title\":\"New\"\n\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/update_task/2",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"update_task",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:05:23 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:05:23 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Task updated successfully\",\n    \"data\": {\n        \"id\": 2,\n        \"title\": \"New\",\n        \"description\": \"Testing to add a task\",\n        \"due_date\": \"2024-02-23\",\n        \"status\": 0,\n        \"created_at\": \"2024-02-23T11:02:29.000000Z\",\n        \"updated_at\": \"2024-02-23T13:05:23.000000Z\"\n    }\n}"
+						}
+					]
 				},
 				{
 					"name": "Delete Task",
@@ -395,7 +1106,78 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Delete Task",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/delete_task/2",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"delete_task",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:05:42 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:05:42 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "55"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Task deleted successfully\"\n}"
+						}
+					]
 				},
 				{
 					"name": "Assign",
@@ -404,7 +1186,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"user_id\": 2,\n    \"task_id\": 1\n}",
+							"raw": "{\n    \"user_id\": 2,\n    \"task_id\": 4\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -427,7 +1209,164 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Assign",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"user_id\": 2,\n    \"task_id\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/assign_task",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"assign_task"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:06:07 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:06:07 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "54"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Task already assigned to user\"\n}"
+						},
+						{
+							"name": "Assign",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"user_id\": 1,\n    \"task_id\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/assign_task",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"assign_task"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:06:25 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:06:25 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"data\": \"Task assigned to user successfully\",\n    \"task\": {\n        \"id\": 1,\n        \"title\": \"Test\",\n        \"description\": \"Testing to add a task\",\n        \"due_date\": \"2024-02-23\",\n        \"status\": 0,\n        \"created_at\": \"2024-02-23T11:02:21.000000Z\",\n        \"updated_at\": \"2024-02-23T11:02:21.000000Z\"\n    },\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"EiArY4YWti\",\n        \"email\": \"z4JKKdCVHw@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-02-23T11:01:42.000000Z\",\n        \"updated_at\": \"2024-02-23T11:01:42.000000Z\"\n    }\n}"
+						}
+					]
 				},
 				{
 					"name": "Unassign",
@@ -436,7 +1375,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"user_id\": 2,\n    \"task_id\": 4\n}",
+							"raw": "{\n    \"user_id\": 1,\n    \"task_id\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -459,7 +1398,164 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Unassign",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"user_id\": 2,\n    \"task_id\": 4\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/unassign_task",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"unassign_task"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:06:33 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:06:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Task not assigned to user\"\n}"
+						},
+						{
+							"name": "Unassign",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"user_id\": 1,\n    \"task_id\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/unassign_task",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"unassign_task"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:07:22 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:07:22 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"data\": \"Task unassigned from user successfully\",\n    \"task\": {\n        \"id\": 1,\n        \"title\": \"Test\",\n        \"description\": \"Testing to add a task\",\n        \"due_date\": \"2024-02-23\",\n        \"status\": 0,\n        \"created_at\": \"2024-02-23T11:02:21.000000Z\",\n        \"updated_at\": \"2024-02-23T11:02:21.000000Z\"\n    },\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"EiArY4YWti\",\n        \"email\": \"z4JKKdCVHw@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-02-23T11:01:42.000000Z\",\n        \"updated_at\": \"2024-02-23T11:01:42.000000Z\"\n    }\n}"
+						}
+					]
 				},
 				{
 					"name": "User Assigned Tasks",
@@ -495,7 +1591,87 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "User Assigned Tasks",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/user_task/2",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"user_task",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:08:46 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:08:46 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"user\": {\n        \"id\": 2,\n        \"name\": \"oSByALUFF6\",\n        \"email\": \"LfahjCgSrA@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-02-23T11:01:43.000000Z\",\n        \"updated_at\": \"2024-02-23T11:01:43.000000Z\"\n    },\n    \"tasks\": [\n        {\n            \"id\": 12,\n            \"title\": \"Test\",\n            \"description\": \"Testing to add a task\",\n            \"due_date\": \"2024-02-23\",\n            \"status\": \"pending\",\n            \"created_at\": \"2024-02-23T11:21:46.000000Z\",\n            \"updated_at\": \"2024-02-23T11:21:46.000000Z\",\n            \"task_id\": 1,\n            \"user_id\": 2\n        },\n        {\n            \"id\": 15,\n            \"title\": \"Test 3\",\n            \"description\": \"Testing to add a task\",\n            \"due_date\": \"2024-02-23\",\n            \"status\": \"in process\",\n            \"created_at\": \"2024-02-23T13:08:29.000000Z\",\n            \"updated_at\": \"2024-02-23T13:08:29.000000Z\",\n            \"task_id\": 4,\n            \"user_id\": 2\n        }\n    ]\n}"
+						}
+					]
 				},
 				{
 					"name": "Update Status by User",
@@ -537,7 +1713,86 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Update Status by User",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"status\": 1,\n    \"task_id\": 4\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/update_status",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"update_status"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:07:52 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:07:52 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Task status updated\"\n}"
+						}
+					]
 				},
 				{
 					"name": "Logged-in User Tasks",
@@ -582,7 +1837,86 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Logged-in User Tasks",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/user_tasks",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"user_tasks"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:08:00 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 23 Feb 2024 13:08:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.5"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"task\": [\n        {\n            \"id\": 7,\n            \"title\": \"Test 3\",\n            \"description\": \"Testing to add a task\",\n            \"due_date\": \"2024-02-23\",\n            \"status\": \"in process\",\n            \"created_at\": \"2024-02-23T11:04:24.000000Z\",\n            \"updated_at\": \"2024-02-23T11:04:24.000000Z\",\n            \"task_id\": 4,\n            \"user_id\": 1,\n            \"user\": {\n                \"id\": 1,\n                \"name\": \"EiArY4YWti\",\n                \"email\": \"z4JKKdCVHw@gmail.com\",\n                \"email_verified_at\": null,\n                \"created_at\": \"2024-02-23T11:01:42.000000Z\",\n                \"updated_at\": \"2024-02-23T11:01:42.000000Z\"\n            }\n        }\n    ]\n}"
+						}
+					]
 				}
 			]
 		}

@@ -3,12 +3,13 @@
 ## Set up:
 
 1. Clone the repository
-2. Run `composer install`
-3. Run `php artisan key:generate`
-4. Run `php artisan migrate` to create the database tables, select yes when prompted if database is not created manually
-5. Run `php artisan db:seed --class=UserSeeder` to seed the database with a user
-6. Run `php artisan serve` to start the server on `http://127.0.0.1:8000`
-7. Use the postman collection to test the endpoints
+2. rename the `.env.example` file to `.env`
+3. Run `composer install`
+4. Run `php artisan key:generate`
+5. Run `php artisan migrate` to create the database tables, select yes when prompted if database is not created manually
+6. Run `php artisan db:seed --class=UserSeeder` to seed the database with a user
+7. Run `php artisan serve` to start the server on `http://127.0.0.1:8000`
+8. Use the postman collection to test the endpoints
  
 ## Endpoints:
 

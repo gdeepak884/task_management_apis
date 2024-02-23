@@ -35,9 +35,9 @@
 
 - api/delete_task/{id} - DELETE - Delete a task
 
-- api/assign_task - POST - Assign a task to a user
+- api/assign_task - POST - Assign a user to a task
 
-- api/unassign_task - POST - Unassign a task from a user
+- api/unassign_task - POST - Unassign a user from a task
 
 - api/user_task/{id} - GET - Get all tasks assigned to a user by user id
 

@@ -46,4 +46,4 @@
 
 ## APIs Collection
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://api.postman.com/collections/13401788-ddf183a4-d83c-4074-a761-bd03c7a58bf7?access_key=PMAT-01HQAY4R9X77N5XQNCBV2SKZ4W)
+- The postman collection can be found in the root directory of the project as `Task Management.postman_collection.json`
